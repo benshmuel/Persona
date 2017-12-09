@@ -1,16 +1,11 @@
 package ServerPackage;
 
 import HandlerPackage.Welcome;
-import com.google.auth.oauth2.GoogleCredentials;
-import com.google.firebase.FirebaseApp;
-import com.google.firebase.FirebaseOptions;
-import com.google.firebase.database.*;
 
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.ServerSocket;
-import java.net.Socket;
+
 
 /**
  * Created by benshmuel on 22/11/2017.

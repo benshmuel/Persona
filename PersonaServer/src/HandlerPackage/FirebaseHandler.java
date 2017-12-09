@@ -6,11 +6,9 @@ import ModulesPackage.LoginClass;
 import com.google.auth.oauth2.GoogleCredentials;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.FirebaseOptions;
-import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.UserRecord;
 import com.google.firebase.database.*;
-import com.google.gson.JsonObject;
-import com.sun.xml.internal.bind.v2.TODO;
+
 import org.json.JSONObject;
 
 import java.io.*;
@@ -19,7 +17,6 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Semaphore;
 
 /**

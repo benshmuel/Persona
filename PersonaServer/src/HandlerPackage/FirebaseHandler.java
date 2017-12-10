@@ -100,7 +100,11 @@ public class FirebaseHandler {
                     // converting the response to readable String in order to make it Json Object
                     out = org.apache.commons.io.IOUtils.toString(inputStream, "UTF-8");
                     // building Json in order to get data more easily
+                    try{
                     JSONObject object = new JSONObject(out);
+                    }
+                     catch (JSONException e) {
+                         } 
 
                     // in the JsonObject 'localId' hold the Uid of the current user , we will need it later to access DB
                     currentUserUID = object.get("localId").toString();

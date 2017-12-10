@@ -105,7 +105,7 @@ public class FirebaseHandler {
                         // in the JsonObject 'localId' hold the Uid of the current user , we will need it later to access DB
                         currentUserUID = object.get("localId").toString();
                         System.out.println("Json working :: " + object.get("localId"));
-                    }catch (JSONException D){}
+                    }catch (Exception D){}
 
               
 
